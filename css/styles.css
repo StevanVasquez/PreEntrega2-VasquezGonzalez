@@ -110,6 +110,8 @@ body {
 #main__container__information__biografia__images {
     padding-bottom: 80px;
     padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
 }
 .main__container__information__biografia {
     font-size: 3rem;
@@ -122,12 +124,16 @@ body {
     color: #5A5F51;
 }
 .main__container__information__images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 800px;
     width: 600px;
 }
 .imagenes__main {
     height: 100%;
     width: 100%;
+    
 }
 /* MEDIA QUERIES DEL MAIN INDEX.HTML */
 @media screen and (max-width:1239px ){
