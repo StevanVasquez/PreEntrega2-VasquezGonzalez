@@ -620,6 +620,14 @@ h4 {
     font-weight: normal;
     text-align: none;
 }
+.img__contact__main {
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.imagen__contact {
+    border-radius: 32px;
+    height: 797px;
+}
 /* FORMULARIO */
 #formulario__container__contact {
     margin-top: 10rem;
@@ -713,8 +721,9 @@ label {
     }
     
 }
-
-
-
-
-
+@media screen and (max-width: 1024px) {
+    .imagen__contact {
+        border-radius: 32px;
+        height: 760px;
+    }
+}
