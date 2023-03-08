@@ -292,20 +292,41 @@ body {
     align-items: center;
 }
 .videos__main {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
 }
+
 /* MEDIA QUERIES PARA PHOTOS.HTML  */
+@media screen and (max-width:408px){
+    /* VIDEOS */
+    .videos__main {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* PHOTOS */
+    .img__photos {
+        height: 100px;
+        width: 100px;
+    }
+}
 @media screen and (max-width:340px){
     /* VIDEOS */
     .main__title__videos {
         font-size: 2rem;
     }
+    .videos__main {
+        width: 200px;
+        height: 200px;
+    }
     /* PHOTOS */
     .main__title__photos {
         font-size: 2rem;
     }
-    
+    .img__photos {
+        height: 100px;
+        width: 100px;
+    }
 }
 @media screen and (max-width:269px){
     /* VIDEOS */
