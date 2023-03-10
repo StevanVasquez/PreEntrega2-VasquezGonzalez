@@ -32,16 +32,20 @@ body {
     font-style: italic;
     font-weight: normal;
     text-align: none;
+    transition: all 200ms;
 }
 .links {
     color:#EEEEEA;
 }
 /* PSEUDOCLASES */
 .list__items__nav:hover {
-    background-color: #3c502a; 
+    font-size: 1.1rem;
+    margin: 0.8px;
+    background-color: #a0b77f;
+    border-radius: 5px;
 }
 .links:hover {
-    color: #cbcfbf;
+    color: #535353;
 }
 /* MEDIA QUERIES PARA NAV DE TODOS LOS 5 INDEX */
 @media screen and (max-width:1291px) {
@@ -81,11 +85,17 @@ body {
 .imagen__footer__redes {
     width: 100%;
     height: 100%;
-    padding-bottom: 9px;
+    padding-bottom: 16px;
 }
 .images__redes {
     width: 20px;
     height: 20px;
+    transition: all 300ms;
+}
+.images__redes:hover {
+    width: 31px;
+    height: 31px;
+    background-color: #76715c;
 }
 .paragraph__footer__copyright {
     padding-top: 9px;
@@ -689,6 +699,7 @@ label {
     border: 3px #171717 solid;
 }
 /* MEDIA QUERIES DEL ARCHIVO CONTACT.HTML */
+
 @media screen and (max-width:175px){
     .title__container__contact {
         font-size: 1.5rem;
