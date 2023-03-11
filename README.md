@@ -31,3 +31,7 @@ El proyecto esta estructurado de la siguiente manera:
   archivo principal de estilos para el proyecto. Todos los 5 archivos de html
   utilizan la tecnologia bootstrap para crear un estilo responsivo y
   atractivo.
+
+- La carpeta de sass ("scss/") contiene el archivo principal (main.scss), dentro
+  de esa misma carpeta de "scss/" tambien contiene una carpeta (partials/) donde se encuentra los 5 archivos de sass (index.scss, photos.scss, albums.scss, tours.scss,
+  contact.scss).
