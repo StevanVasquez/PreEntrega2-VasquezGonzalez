@@ -1,0 +1,130 @@
+//MAIN SECCION TOURS.HTML
+#main__tours__container {
+    background-color: #98A379;
+
+    .title__tours {
+
+        @mixin titleTours ($padding-top-title-tour, $padding-bottom-title-tour, $font-size-title-tour,
+        $color-title-tour, $font-weight-title-tour, $font-style-title-tour, $text-align-title-tour) {
+
+            padding-top: $padding-top-title-tour;
+            padding-bottom: $padding-bottom-title-tour;
+            font-size: $font-size-title-tour;
+            color: $color-title-tour;
+            font-weight: $font-weight-title-tour;
+            font-style: $font-style-title-tour;
+            text-align: $text-align-title-tour;
+        }
+        
+        @include titleTours(40px, 40px, 6rem, #777777, normal, italic, none);
+        
+        @media screen and (max-width: 208px) {
+            font-size: 1.7rem;
+        }
+        
+        @media screen and (max-width: 100px) {
+            font-size: 0.2rem;
+        }
+    }
+
+    #city__date__tours {
+        $color-date-city: #b7b6b6;
+        $font-weight-date-city: normal;
+        $font-style-date-city: italic;
+        $text-align-date-city: none;
+        
+        color: $color-date-city;
+        font-weight: $font-weight-date-city;
+        font-style: $font-style-date-city;
+        text-align: $text-align-date-city;
+
+        h3 {
+            font-size: 4rem;
+
+            @media screen and (max-width: 619px) {
+                font-size: 2rem;
+            }
+
+            @media screen and (max-width: 208px) {
+                font-size: 1.8rem;
+            }
+
+            @media screen and (max-width: 100px) {
+                font-size: 0.2rem;
+            }
+        }
+
+        h4 {
+            font-size: 3rem;
+
+            @media screen and (max-width: 619px) {
+                font-size: 1.6rem;
+            }
+
+            @media screen and (max-width: 208px) {
+                font-size: 1.3rem;
+            }
+
+            @media screen and (max-width: 100px) {
+                font-size: 0.7rem;
+            }
+        }
+
+    }
+
+    #main__img__tours {
+        @mixin mainImgTour($display-img-tours, $flex-wrap-img-tours, 
+        $flex-direction-img-tours, $justify-content-img-tours, 
+        $align-items-img-tours, $padding-top-img-tours, 
+        $padding-bottom-img-tour) {
+
+            display: $display-img-tours;
+            flex-wrap: $flex-wrap-img-tours;
+            flex-direction: $flex-direction-img-tours;
+            justify-content: $justify-content-img-tours;
+            align-items: $align-items-img-tours;
+            padding-top: $padding-top-img-tours;
+            padding-bottom: $padding-bottom-img-tour;
+        }
+        @include mainImgTour (flex, wrap, row, space-evenly, 
+        center, 80px, 80px);
+
+        .image__tours {
+            $height-image-tour: 600px;
+            $width-image-tour: 600px;
+            $border-radius-image-tour: 17px;
+            $border-image-tour: #3c502a solid 4px;
+
+            height: $height-image-tour;
+            width: $width-image-tour;
+            border-radius: $border-radius-image-tour;
+            border:$border-image-tour;
+
+            @media screen and (max-width: 619px) {
+                height: 400px;
+                width: 400px;
+            }
+
+            @media screen and (max-width: 410px) {
+                height: 290px;
+                width: 200px;
+            }
+
+            @media screen and (max-width: 208px) {
+                height: 290px;
+                width: 110px;
+            }
+
+            @media screen and (max-width: 116px) {
+                height: 290px;
+                width: 80px;
+            }
+
+            @media screen and (max-width: 100px) {
+                height: 290px;
+                width: 30px;
+            }
+        }
+    }
+
+}

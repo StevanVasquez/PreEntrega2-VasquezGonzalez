@@ -1,0 +1,144 @@
+// MAIN SECCION ALBUMS.HTML
+#main__albums {
+    background-color:#98A379;
+
+    #main__albums__container {
+        padding-bottom: 30px;
+
+        #main__albums__title__paragraph {
+            color:#777777;
+            padding-top: 45px;
+            padding-bottom: 45px;
+
+            .albums__title {
+                $font-size-title-album: 7rem;
+                $text-align-title-album: none;
+                $font-style-title-album: italic;
+                $font-weight-title-album: normal;
+
+                font-size: $font-size-title-album;
+                text-align: $text-align-title-album;
+                font-style: $font-style-title-album;
+                font-weight: $font-weight-title-album;
+
+                @media screen and (max-width: 323px){
+                    font-size: 3rem;
+                    text-align: none;
+                    font-style: italic;
+                    font-weight: normal;
+                }
+
+                @media screen and (max-width: 211px){
+                    font-size: 3rem;
+                    text-align: none;
+                    font-style: italic;
+                    font-weight: normal;
+                }
+
+                @media screen and (max-width: 196px){
+                    font-size: 3rem;
+                    text-align: none;
+                    font-style: italic;
+                    font-weight: normal;
+                }
+
+                @media screen and (max-width: 147px){
+                    font-size: 2rem;
+                    text-align: none;
+                    font-style: italic;
+                    font-weight: normal;
+                }
+
+                @media screen and (max-width: 102px){
+                    font-size: 0.9rem;
+                    text-align: none;
+                    font-style: italic;
+                    font-weight: normal;
+                }
+            }
+            .albums__paragraph {
+                $font-size-paragraph-album: 3rem;
+                $text-align-paragraph-album: none;
+                $font-style-paragraph-album: italic;
+                $font-weight-paragraph-album: normal;
+
+                font-size: $font-size-paragraph-album;
+                text-align: $text-align-paragraph-album;
+                font-style: $font-style-paragraph-album;
+                font-weight: $font-weight-paragraph-album;
+
+                @media screen and (max-width: 323px){
+                    font-size: 1rem;
+                }
+
+                @media screen and (max-width: 211px){
+                    font-size: 1rem;
+                }
+
+                @media screen and (max-width: 196px){
+                    font-size: 1rem;
+                }
+
+                @media screen and (max-width: 147px){
+                    font-size: 0.9rem;
+                }
+
+                @media screen and (max-width: 102px){
+                    font-size: 0.6rem;
+                }
+            }
+        }
+        
+        #main__albums__spotify {
+
+            @mixin AlbumsSpotifyContainer($display-album-spotify, $flex-direction-album-spotify,
+            $flex-wrap-album-spotify, $justify-content-album-spotify, $align-items-album-spotify) {
+
+                display: $display-album-spotify;
+                flex-direction: $flex-direction-album-spotify;
+                flex-wrap: $flex-wrap-album-spotify;
+                justify-content: $justify-content-album-spotify;
+                align-items: $align-items-album-spotify;
+            }
+
+            @include AlbumsSpotifyContainer(flex, row, wrap, space-evenly, center);
+
+            .albums__spotify {
+                height: 600px;
+                width: 300px;
+                padding-top: 30px;
+
+                @media screen and (max-width: 323px){
+                    height: 600px;
+                    width: 210px;
+                    padding-top: 30px;
+                }
+
+                @media screen and (max-width: 211px){
+                    height: 600px;
+                    width: 190px;
+                    padding-top: 30px;
+                }
+
+                @media screen and (max-width: 196px){
+                    height: 600px;
+                    width: 100px;
+                    padding-top: 30px;
+                }
+
+                @media screen and (max-width: 147px){
+                    height: 600px;
+                    width: 70px;
+                    padding-top: 30px;
+                }
+
+                @media screen and (max-width: 102px){
+                    height: 600px;
+                    width: 48px;
+                    padding-top: 30px;
+                }
+            }
+        }
+
+    }
+}

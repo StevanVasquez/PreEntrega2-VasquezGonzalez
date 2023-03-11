@@ -1,0 +1,168 @@
+// MAIN SECCION PHOTOS.HTML
+#main__photos__videos {
+    $background-color-main-photos-videos: #98A379;
+
+    background-color:$background-color-main-photos-videos;
+
+    #main__photos__videos__container {
+        $padding-bottom-container-video-photo: 120px;
+        $padding-top-container-video-photo: 130px;
+
+        padding-bottom: $padding-bottom-container-video-photo;
+        padding-top: $padding-top-container-video-photo;
+
+        @media screen and (max-width: 912px) {
+            padding-bottom: 352px;
+        }
+
+        .main__title__photos {
+
+            @mixin mainTitlePhotos ($color-title-photos, $padding-title-photos, $font-size-title-photos,
+                $font-style-title-photos, $font-weight-title-photos, $text-align-title-photos) {
+
+                color: $color-title-photos;
+                padding: $padding-title-photos;
+                font-size: $font-size-title-photos;
+                font-style: $font-style-title-photos;
+                font-weight: $font-weight-title-photos;
+                text-align: $text-align-title-photos;
+
+            }
+
+            @include mainTitlePhotos(#777777, 16px 0 16px 0, 5rem, italic, none, none);
+
+            @media screen and (max-width:340px){
+                font-size: 2rem;
+            }
+            
+            @media screen and (max-width:143px) {
+                font-size: 1rem;
+            }
+
+            @media screen and (max-width:102px) {      
+                font-size: 0.2rem;
+            }
+        }
+
+        #main__img__photos {
+
+            @mixin containerImgPhotos ($display-img-photos, $flex-wrap-img-photos, $flex-direction-img-photos,
+                $justify-content-img-photos, $align-items-img-photos, $padding-top-img-photos) {
+
+                display: $display-img-photos;
+                flex-wrap: $flex-wrap-img-photos;
+                flex-direction: $flex-direction-img-photos;
+                justify-content: $justify-content-img-photos;
+                align-items: $align-items-img-photos;
+                padding-top: $padding-top-img-photos;
+            }
+
+            @include containerImgPhotos(flex, wrap, row, space-evenly, center, 70px);
+
+            .img__photos {
+                $height-img-photos: 200px;
+                $width-img-photos: 200px;
+                $border-img-photos: #3c502a solid 4px;
+                $border-radius-img-photos: 10px;
+
+                height: $height-img-photos;
+                width: $width-img-photos;
+                border: $border-img-photos;
+                border-radius: $border-radius-img-photos;
+
+                @media screen and (max-width:408px){
+                    height: 100px;
+                    width: 100px;
+                }
+
+                @media screen and (max-width:340px){
+                    height: 100px;
+                    width: 100px;
+                }
+
+                @media screen and (max-width:269px){
+                    height: 100px;
+                    width: 100px;
+                }
+
+                @media screen and (max-width:102px) {      
+                    height: 100px;
+                    width: 42px;
+                }
+            }
+        }
+
+        .main__title__videos {
+
+            @mixin mainTitleVideos ($color-title-videos, $padding-title-videos, $font-size-title-videos,
+                $font-style-title-videos, $font-weight-title-videos, $text-align-title-videos) {
+                color: $color-title-videos;
+                padding: $padding-title-videos;
+                font-size: $font-size-title-videos;
+                font-style: $font-style-title-videos;
+                font-weight: $font-weight-title-videos;
+                text-align: $text-align-title-videos;
+            }
+
+            @include mainTitleVideos(#777777, 90px 0 0 0, 5rem, italic, none, none);
+
+            @media screen and (max-width:340px){
+                font-size: 2rem;
+            }
+
+            @media screen and (max-width:143px) {
+                font-size: 1rem;
+            }
+
+            @media screen and (max-width:102px) {      
+                font-size: 0.2rem;
+            }
+        }
+
+        #main__videos__photos {
+
+            @mixin containerVideosPhotos ($display-videos-photos, $flex-wrap-videos-photos, $flex-direction-videos-photos,
+                $justify-content-videos-photos, $align-items-videos-photos) {
+
+                display: $display-videos-photos;
+                flex-wrap: $flex-wrap-videos-photos;
+                flex-direction: $flex-direction-videos-photos;
+                justify-content: $justify-content-videos-photos;
+                align-items: $align-items-videos-photos;
+            }
+
+            @include containerVideosPhotos(flex, wrap, row, space-evenly, center);
+            
+            .videos__main {
+                $width-videos-main: 400px;
+                $height-videos-main: 400px;
+
+                width: $width-videos-main;
+                height: $height-videos-main;
+
+                @media screen and (max-width:408px){
+                    width: 300px;
+                    height: 300px;    
+                }
+
+                @media screen and (max-width:340px){
+                    width: 200px;
+                    height: 200px;
+                }
+
+                @media screen and (max-width:269px){
+                    width: 100px;
+                    height: 100px;
+                }
+
+                @media screen and (max-width:102px) {      
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}
+
+
+

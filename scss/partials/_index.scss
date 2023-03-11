@@ -1,0 +1,362 @@
+//RESET PARA TODAS LAS 5 SECCIONES DE LOS ARCHIVOS HTML
+@mixin boxModelingReset($reset-padding, $reset-margin) {
+    padding: $reset-padding;
+    margin: $reset-padding;
+}
+@mixin fontSizeHtml($font-size-html) {
+    font-size: $font-size-html;
+}
+@mixin backgroundColorBody($background-color-body) {
+    background-color: $background-color-body;
+}
+
+* {
+    @include boxModelingReset(0px, 0px); 
+}
+
+html {
+    $font-family-html: 'Montserrat', sans-serif;
+    @include fontSizeHtml(62.5%);
+    font-family: $font-family-html;
+    
+    body {
+        @include backgroundColorBody(#98A379);
+    }
+}
+
+// NAVBAR PARA TODAS LAS 5 SECCIONES DE LOS ARCHIVOS HTML
+@mixin hoverAnimationListItemsNav ($color-list-item, $font-size-list-item, 
+    $border-radius-list-item, $tranform-list-item) {
+        background-color: $color-list-item;
+        font-size: $font-size-list-item;
+        border-radius: $border-radius-list-item;
+        transform: $tranform-list-item;
+}
+@mixin transitionListItems ($select-all-properties-hover-list-item, $start-time) {
+    transition: $select-all-properties-hover-list-item, $start-time;
+}
+@mixin logoNavbarHeader ($margin-left-logo-nav, $color-logo-nav) {
+    margin-left: $margin-left-logo-nav;
+    color:$color-logo-nav;
+}
+#header__index {
+    $background-color-navbar: #A48F45;
+    background-color:$background-color-navbar;
+
+    .header__nav__logo {
+        @include logoNavbarHeader(15px, #EEEEEA);
+
+        @media screen and (max-width:992px) {
+            margin-left:0px;
+        }
+
+        @media screen and (max-width:85px) {
+            margin-left:0px;
+            font-size: 0.5rem;
+        }
+    }
+
+    .nav__links__index {
+        $margin-left-ul-nav: 50px;
+        margin-left: $margin-left-ul-nav;
+
+        @media screen and (max-width:1302px) {
+            margin-left: 25px;    
+        }
+
+        @media screen and (max-width:992px) {
+            margin-left: 0px;
+        }
+
+        .list__items__nav {
+            margin: 0 0 0 160px;
+            font-size: 1.4rem;
+            font-style: italic;
+            font-weight: normal;
+            text-align: none;
+
+            @media screen and (max-width:1302px) {
+                margin: 0 0 0 125px;
+                font-size: 0.6rem
+            }
+
+            @media screen and (max-width:992px) {
+                margin: 0 0 0 0px;
+            }
+
+            .links {
+                $color-links-navbar: #EEEEEA; 
+                color:$color-links-navbar;
+
+                &:hover {
+                    $color-hover-links-navbar: #535353; 
+                    color: $color-hover-links-navbar;
+                }
+            }
+        }
+
+        #nav_home {
+            @include transitionListItems(all, 600ms);
+
+            &:hover {
+                @include hoverAnimationListItemsNav (#aac692, 1.4rem, 9px, scale(1.2));
+            }
+        }
+        
+        #nav_photos {
+            @include transitionListItems (all, 600ms);
+
+            &:hover {
+                @include hoverAnimationListItemsNav (#aac692, 1.4rem, 9px, scale(1.2));
+            }
+        }
+        
+        #nav_albums {
+            @include transitionListItems (all, 600ms);
+
+            &:hover {
+                @include hoverAnimationListItemsNav (#aac692, 1.4rem, 9px, scale(1.2));
+            }
+        }
+
+        #nav_tours {
+            @include transitionListItems (all, 600ms);
+
+            &:hover {
+                @include hoverAnimationListItemsNav (#aac692, 1.4rem, 9px, scale(1.2));
+            }
+        }
+
+        #nav_contact {
+            @include transitionListItems (all, 600ms);
+
+            &:hover {
+                @include hoverAnimationListItemsNav (#aac692, 1.4rem, 9px, scale(1.2));
+            }
+        }
+    }
+
+}
+
+
+// MAIN SECCION INDEX.HTML
+.main__container__information {
+    $background-color-container-information-index: #98A379;
+    background-color:  $background-color-container-information-index;
+
+    #main__container__information__biografia__images {
+
+        @mixin containerMainInformationBiografiaImages($padding-bottom-information,
+            $padding-top-information, $display-information, $justify-content-information){
+
+            padding-bottom: $padding-bottom-information;
+            padding-top: $padding-top-information;
+            display: $display-information;
+            justify-content: $justify-content-information;    
+        };
+
+        @include containerMainInformationBiografiaImages(80px, 80px, flex, space-around);
+
+        .main__container__information__biografia {
+
+            @mixin containerMainInformationBiografia($font-size-biography,$height-biography, 
+                $width-biography, $padding-left-biography, $font-style-biography, $font-weight-biography,
+                $text-align-biography, $color-biography){
+
+                font-size: $font-size-biography;
+                height: $height-biography;
+                width: $width-biography;
+                padding-left: $padding-left-biography;
+                font-style: $font-style-biography;
+                font-weight: $font-weight-biography;
+                text-align: $text-align-biography;
+                color: $color-biography;
+            }     
+
+            @include containerMainInformationBiografia(3rem, 400px, 640px, 40px, italic,
+            none, none, #5A5F51);
+
+            @media screen and (max-width:1239px ){
+                font-size: 2.6rem;
+                height: 400px;
+                width: 1100px;
+            }
+            @media screen and (max-width:924px ){
+                font-size: 2.3rem;
+                height: 400px;
+                width: 1100px;
+                padding-left: 0px;
+            }
+            @media screen and (max-width:736px ){
+                font-size: 1.9rem;
+                height: 400px;
+                width: 1100px;
+                padding-left: 0px;
+            }
+            @media screen and (max-width:517px ){
+                font-size: 1.6rem;
+                height: 400px;
+                width: 1100px;
+                padding-left: 0px;
+            }
+            @media screen and (max-width:368px ){
+                font-size: 1.2rem;
+                height: 400px;
+                width: 1100px;
+                padding-left: 0px;
+            }
+            @media screen and (max-width:211px ){
+                font-size: 1rem;
+                height: 400px;
+                width: 1100px;
+                padding-left: 0px;   
+            }
+            @media screen and (max-width:150px ){
+                font-size: 0.8rem;
+                height: 400px;
+                width: 1100px;
+                padding-left: 0px;
+            }
+            @media screen and (max-width:109px ){
+                font-size: 0.5rem;
+                height: 400px;
+                width: 1100px;
+                padding-left: 0px;    
+            }
+            @media screen and (max-width:56px ){
+                font-size: 0.2rem;
+                height: 400px;
+                width: 1100px;
+                padding-left: 0px;
+            }
+
+            .title__biografia {
+                @media screen and (max-width: 51px) {
+                    font-size: 0.2rem;
+                }
+            }
+        }
+
+        .main__container__information__images{
+
+            $display-images: flex;
+            $justify-content-images: center;
+            $align-items-images: center;
+            $height-images: 800px;
+            $width-images: 600px;
+
+            display: $display-images;
+            justify-content: $justify-content-images;
+            align-items: $align-items-images;
+            height: $height-images;
+            width: $width-images;
+
+            @media screen and (max-width:1239px ){
+                height: 800px;
+                width: 1200px;
+            }
+            @media screen and (max-width:924px ){
+                height: 800px;
+                width: 1200px;
+            }
+            @media screen and (max-width:736px ){
+                height: 800px;
+                width: 1200px;
+            }
+            @media screen and (max-width:517px ){
+                height: 800px;
+                width: 1200px;
+            }
+            @media screen and (max-width:368px ){
+                height: 800px;
+                width: 1200px;
+            }
+            @media screen and (max-width:211px ){
+                height: 800px;
+                width: 1200px;
+            }
+            @media screen and (max-width:150px ){
+                height: 800px;
+                width: 1200px;
+            }
+            @media screen and (max-width:109px ){
+                height: 800px;
+                width: 1200px;
+            }
+            @media screen and (max-width:56px ){
+                height: 800px;
+                width: 1200px;
+            }
+
+            .imagenes__main {
+                $height-images-main: 100%;
+                $width-images-main: 100%;
+                height: $height-images-main;
+                width: $width-images-main;    
+            }
+        }
+    }
+}
+
+// FOOTER PARA TODAS LAS 5 SECCIONES DE LOS ARCHIVOS HTML
+@mixin FooterCopyrightRedes ($display-footer, $flex-direcion-footer, $justify-content-footer,
+$background-color-footer){
+    display: $display-footer;
+    flex-direction: $flex-direcion-footer;
+    justify-content: $justify-content-footer;
+    background-color:$background-color-footer;
+
+}
+@mixin paragraphFooterCopyright ($padding-top-copyright, $color-copyright,
+$font-size-copyright, $font-style-copyright, $font-weight-copyright,
+$text-align-copyright) {
+    padding-top: $padding-top-copyright;
+    color: $color-copyright;
+    font-size: $font-size-copyright;
+    font-style: $font-style-copyright;
+    font-weight: $font-weight-copyright;
+    text-align: $text-align-copyright;
+}
+@mixin imagesFooterRedes ($width-images-redes, $height-images-redes,
+$padding-bottom-images-redes) {
+    width: $width-images-redes;
+    height: $height-images-redes;
+    padding-bottom: $padding-bottom-images-redes;
+}
+
+#footer__index__copyright {
+    @include FooterCopyrightRedes(flex, column, space-evenly, #A48F45);
+    
+    .paragraph__footer__copyright {
+        @include paragraphFooterCopyright(9px,#EEEEEA, 1rem, italic, normal,
+        center);
+
+        @media screen and (max-width: 86px) {
+            font-size: 0.4rem;    
+        }
+    }
+
+    .imagen__footer__redes {
+        @include imagesFooterRedes (100%, 100%, 16px);
+        
+        .images__redes {
+            $width-images-redes: 20px;
+            $height-images-redes: 20px;
+            $transition-images-redes: all 300ms;
+
+            width: $width-images-redes;
+            height: $height-images-redes;
+            transition: $transition-images-redes;
+
+            &:hover {
+                $width-hover-images-redes: 31px;
+                $height-hover-images-redes: 31px;
+                $background-color-hover-images-redes: #76715c;
+
+                width: $width-hover-images-redes;
+                height: $height-hover-images-redes;
+                background-color: $background-color-hover-images-redes;
+            }
+        }
+    }
+}

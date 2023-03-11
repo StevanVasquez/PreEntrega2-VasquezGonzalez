@@ -1,0 +1,835 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+html body {
+  background-color: #98A379;
+}
+
+#header__index {
+  background-color: #A48F45;
+}
+#header__index .header__nav__logo {
+  margin-left: 15px;
+  color: #EEEEEA;
+}
+@media screen and (max-width: 992px) {
+  #header__index .header__nav__logo {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 85px) {
+  #header__index .header__nav__logo {
+    margin-left: 0px;
+    font-size: 0.5rem;
+  }
+}
+#header__index .nav__links__index {
+  margin-left: 50px;
+}
+@media screen and (max-width: 1302px) {
+  #header__index .nav__links__index {
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #header__index .nav__links__index {
+    margin-left: 0px;
+  }
+}
+#header__index .nav__links__index .list__items__nav {
+  margin: 0 0 0 160px;
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: normal;
+  text-align: none;
+}
+@media screen and (max-width: 1302px) {
+  #header__index .nav__links__index .list__items__nav {
+    margin: 0 0 0 125px;
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  #header__index .nav__links__index .list__items__nav {
+    margin: 0 0 0 0px;
+  }
+}
+#header__index .nav__links__index .list__items__nav .links {
+  color: #EEEEEA;
+}
+#header__index .nav__links__index .list__items__nav .links:hover {
+  color: #535353;
+}
+#header__index .nav__links__index #nav_home {
+  transition: all, 600ms;
+}
+#header__index .nav__links__index #nav_home:hover {
+  background-color: #aac692;
+  font-size: 1.4rem;
+  border-radius: 9px;
+  transform: scale(1.2);
+}
+#header__index .nav__links__index #nav_photos {
+  transition: all, 600ms;
+}
+#header__index .nav__links__index #nav_photos:hover {
+  background-color: #aac692;
+  font-size: 1.4rem;
+  border-radius: 9px;
+  transform: scale(1.2);
+}
+#header__index .nav__links__index #nav_albums {
+  transition: all, 600ms;
+}
+#header__index .nav__links__index #nav_albums:hover {
+  background-color: #aac692;
+  font-size: 1.4rem;
+  border-radius: 9px;
+  transform: scale(1.2);
+}
+#header__index .nav__links__index #nav_tours {
+  transition: all, 600ms;
+}
+#header__index .nav__links__index #nav_tours:hover {
+  background-color: #aac692;
+  font-size: 1.4rem;
+  border-radius: 9px;
+  transform: scale(1.2);
+}
+#header__index .nav__links__index #nav_contact {
+  transition: all, 600ms;
+}
+#header__index .nav__links__index #nav_contact:hover {
+  background-color: #aac692;
+  font-size: 1.4rem;
+  border-radius: 9px;
+  transform: scale(1.2);
+}
+
+.main__container__information {
+  background-color: #98A379;
+}
+.main__container__information #main__container__information__biografia__images {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.main__container__information #main__container__information__biografia__images .main__container__information__biografia {
+  font-size: 3rem;
+  height: 400px;
+  width: 640px;
+  padding-left: 40px;
+  font-style: italic;
+  font-weight: none;
+  text-align: none;
+  color: #5A5F51;
+}
+@media screen and (max-width: 1239px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__biografia {
+    font-size: 2.6rem;
+    height: 400px;
+    width: 1100px;
+  }
+}
+@media screen and (max-width: 924px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__biografia {
+    font-size: 2.3rem;
+    height: 400px;
+    width: 1100px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 736px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__biografia {
+    font-size: 1.9rem;
+    height: 400px;
+    width: 1100px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 517px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__biografia {
+    font-size: 1.6rem;
+    height: 400px;
+    width: 1100px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 368px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__biografia {
+    font-size: 1.2rem;
+    height: 400px;
+    width: 1100px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 211px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__biografia {
+    font-size: 1rem;
+    height: 400px;
+    width: 1100px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 150px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__biografia {
+    font-size: 0.8rem;
+    height: 400px;
+    width: 1100px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 109px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__biografia {
+    font-size: 0.5rem;
+    height: 400px;
+    width: 1100px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 56px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__biografia {
+    font-size: 0.2rem;
+    height: 400px;
+    width: 1100px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 51px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__biografia .title__biografia {
+    font-size: 0.2rem;
+  }
+}
+.main__container__information #main__container__information__biografia__images .main__container__information__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 600px;
+}
+@media screen and (max-width: 1239px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__images {
+    height: 800px;
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 924px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__images {
+    height: 800px;
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 736px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__images {
+    height: 800px;
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 517px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__images {
+    height: 800px;
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 368px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__images {
+    height: 800px;
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 211px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__images {
+    height: 800px;
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 150px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__images {
+    height: 800px;
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 109px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__images {
+    height: 800px;
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 56px) {
+  .main__container__information #main__container__information__biografia__images .main__container__information__images {
+    height: 800px;
+    width: 1200px;
+  }
+}
+.main__container__information #main__container__information__biografia__images .main__container__information__images .imagenes__main {
+  height: 100%;
+  width: 100%;
+}
+
+#footer__index__copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #A48F45;
+}
+#footer__index__copyright .paragraph__footer__copyright {
+  padding-top: 9px;
+  color: #EEEEEA;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+@media screen and (max-width: 86px) {
+  #footer__index__copyright .paragraph__footer__copyright {
+    font-size: 0.4rem;
+  }
+}
+#footer__index__copyright .imagen__footer__redes {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 16px;
+}
+#footer__index__copyright .imagen__footer__redes .images__redes {
+  width: 20px;
+  height: 20px;
+  transition: all 300ms;
+}
+#footer__index__copyright .imagen__footer__redes .images__redes:hover {
+  width: 31px;
+  height: 31px;
+  background-color: #76715c;
+}
+
+#main__photos__videos {
+  background-color: #98A379;
+}
+#main__photos__videos #main__photos__videos__container {
+  padding-bottom: 120px;
+  padding-top: 130px;
+}
+@media screen and (max-width: 912px) {
+  #main__photos__videos #main__photos__videos__container {
+    padding-bottom: 352px;
+  }
+}
+#main__photos__videos #main__photos__videos__container .main__title__photos {
+  color: #777777;
+  padding: 16px 0 16px 0;
+  font-size: 5rem;
+  font-style: italic;
+  font-weight: none;
+  text-align: none;
+}
+@media screen and (max-width: 340px) {
+  #main__photos__videos #main__photos__videos__container .main__title__photos {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 143px) {
+  #main__photos__videos #main__photos__videos__container .main__title__photos {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 102px) {
+  #main__photos__videos #main__photos__videos__container .main__title__photos {
+    font-size: 0.2rem;
+  }
+}
+#main__photos__videos #main__photos__videos__container #main__img__photos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 70px;
+}
+#main__photos__videos #main__photos__videos__container #main__img__photos .img__photos {
+  height: 200px;
+  width: 200px;
+  border: #3c502a solid 4px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 408px) {
+  #main__photos__videos #main__photos__videos__container #main__img__photos .img__photos {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 340px) {
+  #main__photos__videos #main__photos__videos__container #main__img__photos .img__photos {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 269px) {
+  #main__photos__videos #main__photos__videos__container #main__img__photos .img__photos {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 102px) {
+  #main__photos__videos #main__photos__videos__container #main__img__photos .img__photos {
+    height: 100px;
+    width: 42px;
+  }
+}
+#main__photos__videos #main__photos__videos__container .main__title__videos {
+  color: #777777;
+  padding: 90px 0 0 0;
+  font-size: 5rem;
+  font-style: italic;
+  font-weight: none;
+  text-align: none;
+}
+@media screen and (max-width: 340px) {
+  #main__photos__videos #main__photos__videos__container .main__title__videos {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 143px) {
+  #main__photos__videos #main__photos__videos__container .main__title__videos {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 102px) {
+  #main__photos__videos #main__photos__videos__container .main__title__videos {
+    font-size: 0.2rem;
+  }
+}
+#main__photos__videos #main__photos__videos__container #main__videos__photos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#main__photos__videos #main__photos__videos__container #main__videos__photos .videos__main {
+  width: 400px;
+  height: 400px;
+}
+@media screen and (max-width: 408px) {
+  #main__photos__videos #main__photos__videos__container #main__videos__photos .videos__main {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 340px) {
+  #main__photos__videos #main__photos__videos__container #main__videos__photos .videos__main {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 269px) {
+  #main__photos__videos #main__photos__videos__container #main__videos__photos .videos__main {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 102px) {
+  #main__photos__videos #main__photos__videos__container #main__videos__photos .videos__main {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+#main__albums {
+  background-color: #98A379;
+}
+#main__albums #main__albums__container {
+  padding-bottom: 30px;
+}
+#main__albums #main__albums__container #main__albums__title__paragraph {
+  color: #777777;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+#main__albums #main__albums__container #main__albums__title__paragraph .albums__title {
+  font-size: 7rem;
+  text-align: none;
+  font-style: italic;
+  font-weight: normal;
+}
+@media screen and (max-width: 323px) {
+  #main__albums #main__albums__container #main__albums__title__paragraph .albums__title {
+    font-size: 3rem;
+    text-align: none;
+    font-style: italic;
+    font-weight: normal;
+  }
+}
+@media screen and (max-width: 211px) {
+  #main__albums #main__albums__container #main__albums__title__paragraph .albums__title {
+    font-size: 3rem;
+    text-align: none;
+    font-style: italic;
+    font-weight: normal;
+  }
+}
+@media screen and (max-width: 196px) {
+  #main__albums #main__albums__container #main__albums__title__paragraph .albums__title {
+    font-size: 3rem;
+    text-align: none;
+    font-style: italic;
+    font-weight: normal;
+  }
+}
+@media screen and (max-width: 147px) {
+  #main__albums #main__albums__container #main__albums__title__paragraph .albums__title {
+    font-size: 2rem;
+    text-align: none;
+    font-style: italic;
+    font-weight: normal;
+  }
+}
+@media screen and (max-width: 102px) {
+  #main__albums #main__albums__container #main__albums__title__paragraph .albums__title {
+    font-size: 0.9rem;
+    text-align: none;
+    font-style: italic;
+    font-weight: normal;
+  }
+}
+#main__albums #main__albums__container #main__albums__title__paragraph .albums__paragraph {
+  font-size: 3rem;
+  text-align: none;
+  font-style: italic;
+  font-weight: normal;
+}
+@media screen and (max-width: 323px) {
+  #main__albums #main__albums__container #main__albums__title__paragraph .albums__paragraph {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 211px) {
+  #main__albums #main__albums__container #main__albums__title__paragraph .albums__paragraph {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 196px) {
+  #main__albums #main__albums__container #main__albums__title__paragraph .albums__paragraph {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 147px) {
+  #main__albums #main__albums__container #main__albums__title__paragraph .albums__paragraph {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 102px) {
+  #main__albums #main__albums__container #main__albums__title__paragraph .albums__paragraph {
+    font-size: 0.6rem;
+  }
+}
+#main__albums #main__albums__container #main__albums__spotify {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#main__albums #main__albums__container #main__albums__spotify .albums__spotify {
+  height: 600px;
+  width: 300px;
+  padding-top: 30px;
+}
+@media screen and (max-width: 323px) {
+  #main__albums #main__albums__container #main__albums__spotify .albums__spotify {
+    height: 600px;
+    width: 210px;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 211px) {
+  #main__albums #main__albums__container #main__albums__spotify .albums__spotify {
+    height: 600px;
+    width: 190px;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 196px) {
+  #main__albums #main__albums__container #main__albums__spotify .albums__spotify {
+    height: 600px;
+    width: 100px;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 147px) {
+  #main__albums #main__albums__container #main__albums__spotify .albums__spotify {
+    height: 600px;
+    width: 70px;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 102px) {
+  #main__albums #main__albums__container #main__albums__spotify .albums__spotify {
+    height: 600px;
+    width: 48px;
+    padding-top: 30px;
+  }
+}
+
+#main__tours__container {
+  background-color: #98A379;
+}
+#main__tours__container .title__tours {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 6rem;
+  color: #777777;
+  font-weight: normal;
+  font-style: italic;
+  text-align: none;
+}
+@media screen and (max-width: 208px) {
+  #main__tours__container .title__tours {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (max-width: 100px) {
+  #main__tours__container .title__tours {
+    font-size: 0.2rem;
+  }
+}
+#main__tours__container #city__date__tours {
+  color: #b7b6b6;
+  font-weight: normal;
+  font-style: italic;
+  text-align: none;
+}
+#main__tours__container #city__date__tours h3 {
+  font-size: 4rem;
+}
+@media screen and (max-width: 619px) {
+  #main__tours__container #city__date__tours h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 208px) {
+  #main__tours__container #city__date__tours h3 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 100px) {
+  #main__tours__container #city__date__tours h3 {
+    font-size: 0.2rem;
+  }
+}
+#main__tours__container #city__date__tours h4 {
+  font-size: 3rem;
+}
+@media screen and (max-width: 619px) {
+  #main__tours__container #city__date__tours h4 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 208px) {
+  #main__tours__container #city__date__tours h4 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 100px) {
+  #main__tours__container #city__date__tours h4 {
+    font-size: 0.7rem;
+  }
+}
+#main__tours__container #main__img__tours {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#main__tours__container #main__img__tours .image__tours {
+  height: 600px;
+  width: 600px;
+  border-radius: 17px;
+  border: #3c502a solid 4px;
+}
+@media screen and (max-width: 619px) {
+  #main__tours__container #main__img__tours .image__tours {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 410px) {
+  #main__tours__container #main__img__tours .image__tours {
+    height: 290px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 208px) {
+  #main__tours__container #main__img__tours .image__tours {
+    height: 290px;
+    width: 110px;
+  }
+}
+@media screen and (max-width: 116px) {
+  #main__tours__container #main__img__tours .image__tours {
+    height: 290px;
+    width: 80px;
+  }
+}
+@media screen and (max-width: 100px) {
+  #main__tours__container #main__img__tours .image__tours {
+    height: 290px;
+    width: 30px;
+  }
+}
+
+#container__contact {
+  background-color: #98A379;
+  padding-top: 120px;
+}
+#container__contact .title__container__contact {
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: normal;
+  text-align: none;
+}
+@media screen and (max-width: 175px) {
+  #container__contact .title__container__contact {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 90px) {
+  #container__contact .title__container__contact {
+    font-size: 0.4rem;
+  }
+}
+#container__contact .paragraph__container__contact {
+  font-size: 2.6rem;
+  text-align: none;
+  font-style: italic;
+  font-weight: normal;
+  text-align: none;
+}
+@media screen and (max-width: 175px) {
+  #container__contact .paragraph__container__contact {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 90px) {
+  #container__contact .paragraph__container__contact {
+    font-size: 0.4rem;
+  }
+}
+#container__contact .img__contact__main {
+  padding-left: 10px;
+  padding-top: 30px;
+}
+#container__contact .img__contact__main .imagen__contact {
+  border-radius: 32px;
+  height: 797px;
+}
+@media screen and (min-width: 1216px) {
+  #container__contact .img__contact__main .imagen__contact {
+    border-radius: 32px;
+    height: 760px;
+  }
+}
+@media screen and ((min-width: 1217px) and (max-width: 1502px)) {
+  #container__contact .img__contact__main .imagen__contact {
+    border-radius: 32px;
+    height: 800px;
+  }
+}
+@media screen and ((min-width: 1503px) and (max-width: 1802px)) {
+  #container__contact .img__contact__main .imagen__contact {
+    border-radius: 32px;
+    height: 840px;
+  }
+}
+
+#formulario__container__contact {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+#formulario__container__contact label {
+  color: #777777;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: normal;
+  text-align: none;
+}
+@media screen and (max-width: 175px) {
+  #formulario__container__contact label {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 90px) {
+  #formulario__container__contact label {
+    font-size: 0.4rem;
+  }
+}
+#formulario__container__contact .input__name__contact {
+  height: 65px;
+  background-color: #8d9195;
+  color: #EEEEEA;
+  font-size: 2rem;
+}
+#formulario__container__contact .input__name__contact:hover {
+  background-color: #8d9195;
+  color: #EEEEEA;
+  border: 1px solid #8d9195;
+}
+#formulario__container__contact .input__name__contact::placeholder {
+  color: #EEEEEA;
+}
+#formulario__container__contact .input__email__contact {
+  height: 65px;
+  background-color: #8d9195;
+  color: #EEEEEA;
+  font-size: 2rem;
+}
+#formulario__container__contact .input__email__contact:hover {
+  background-color: #8d9195;
+  color: #EEEEEA;
+  border: 1px solid #8d9195;
+}
+#formulario__container__contact .input__email__contact::placeholder {
+  color: #EEEEEA;
+}
+#formulario__container__contact .textarea__contact {
+  background: #8d9195;
+  font-size: 2.5rem;
+  color: #EEEEEA;
+}
+#formulario__container__contact .textarea__contact:hover {
+  background-color: #8d9195;
+  color: #EEEEEA;
+  border: 1px solid #8d9195;
+}
+#formulario__container__contact .textarea__contact::placeholder {
+  color: #EEEEEA;
+}
+#formulario__container__contact .bottom__contact {
+  padding: 1rem;
+  font-size: 2rem;
+  color: #EEEEEA;
+  background-color: #606162;
+  border: 3px #171717 solid;
+}
+@media screen and (max-width: 175px) {
+  #formulario__container__contact .bottom__contact {
+    padding: 1rem;
+    font-size: 0.4rem;
+  }
+}
+@media screen and (max-width: 90px) {
+  #formulario__container__contact .bottom__contact {
+    padding: 1rem;
+    font-size: 0.1rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

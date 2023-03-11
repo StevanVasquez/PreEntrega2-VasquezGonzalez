@@ -1,0 +1,174 @@
+//MAIN SECCION CONTACT.HTML
+#container__contact {
+    background-color: #98A379;
+    padding-top: 120px;
+
+    .title__container__contact {
+        $font-size-title-contact: 3rem;
+        $font-style-title-contact: italic;
+        $font-weight-title-contact: normal;
+        $text-align-title-contact: none;
+
+        font-size: $font-size-title-contact;
+        font-style: $font-style-title-contact;
+        font-weight: $font-weight-title-contact;
+        text-align: $text-align-title-contact;
+
+        @media screen and (max-width:175px){
+            font-size: 1.5rem;
+        }
+
+        @media screen and (max-width:90px){
+            font-size: 0.4rem;
+        }
+    }
+
+    .paragraph__container__contact {
+        $font-size-paragraph-contact: 2.6rem ;
+        $text-align-paragraph-contact: left;
+        $font-style-paragraph-contact: italic;
+        $font-weight-paragraph-contact: normal;
+        $text-align-paragraph-contact: none;
+
+        font-size: $font-size-paragraph-contact;
+        text-align: $text-align-paragraph-contact;
+        font-style:  $font-style-paragraph-contact;
+        font-weight: $font-weight-paragraph-contact;
+        text-align: $text-align-paragraph-contact;
+
+        @media screen and (max-width:175px){
+            font-size: 1.2rem;
+        }
+
+        @media screen and (max-width:90px){
+            font-size: 0.4rem;
+        }
+    }
+
+    .img__contact__main {
+        $padding-left-img-contact: 10px;
+        $padding-top-img-contact: 30px;
+
+        padding-left: $padding-left-img-contact;
+        padding-top: $padding-top-img-contact;
+
+        .imagen__contact {
+            border-radius: 32px;
+            height: 797px;
+
+            @media screen and (min-width: 1216px) {
+                border-radius: 32px;
+                height: 760px;
+            }
+
+            @media screen and ((min-width: 1217px) and (max-width:1502px)) {
+                border-radius: 32px;
+                height: 800px;
+            }
+
+            @media screen and ((min-width: 1503px) and (max-width:1802px)) {
+                border-radius: 32px;
+                height: 840px;
+            }
+        }
+    }
+}
+
+#formulario__container__contact {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+    label {
+        color:#777777;
+        font-size: 3rem;
+        font-style: italic;
+        font-weight: normal;
+        text-align: none;
+
+        @media screen and (max-width:175px){
+            font-size: 1.2rem;
+        }
+
+        @media screen and (max-width:90px){
+            font-size: 0.4rem;
+        }
+    }
+    
+    @mixin inputsContactNameEmail($height-inputs-contact, $background-color-inputs-contact,
+    $color-inputs-contact, $font-size-inputs-contact){
+
+        height: $height-inputs-contact;
+        background-color:$background-color-inputs-contact;
+        color: $color-inputs-contact;
+        font-size: $font-size-inputs-contact;
+    }
+    @mixin inputContactNameEmailTextareaHover($background-color-hover-inputs, $color-hover-inputs,
+    $border-hover-inputs) {
+
+        background-color:$background-color-hover-inputs;
+        color: $color-hover-inputs;
+        border: $border-hover-inputs;
+    }
+    .input__name__contact {
+        @include inputsContactNameEmail(65px, #8d9195, #EEEEEA, 2rem);
+
+        &:hover {
+            @include inputContactNameEmailTextareaHover(#8d9195, #EEEEEA, 1px solid #8d9195);
+        }
+
+        &::placeholder {
+            color: #EEEEEA;
+        }
+    }
+
+    .input__email__contact {
+        @include inputsContactNameEmail(65px, #8d9195, #EEEEEA, 2rem);
+
+        &:hover {
+            @include inputContactNameEmailTextareaHover(#8d9195, #EEEEEA, 1px solid #8d9195);
+        }
+
+        &::placeholder {
+            color: #EEEEEA;
+        }
+    }
+
+    .textarea__contact {
+        background: #8d9195;
+        font-size: 2.5rem;
+        color: #EEEEEA;
+
+        &:hover {
+            @include inputContactNameEmailTextareaHover(#8d9195, #EEEEEA, 1px solid #8d9195);
+        }
+
+        &::placeholder {
+            color: #EEEEEA;
+        }
+    }
+
+    .bottom__contact {
+        @mixin buttomInputContact($padding-buttom, $font-size-buttom, $color-buttom,
+        $background-color-buttom, $border-buttom) {
+
+            padding: $padding-buttom;
+            font-size: $font-size-buttom;
+            color: $color-buttom;
+            background-color: $background-color-buttom;
+            border: $border-buttom;
+        }
+
+        @include buttomInputContact(1rem, 2rem, #EEEEEA, #606162, 3px #171717 solid);
+
+        @media screen and (max-width:175px){
+            padding: 1rem;
+            font-size: 0.4rem;
+        }
+
+        @media screen and (max-width:90px){
+            padding: 1rem;
+            font-size: 0.1rem;
+        }
+    }
+}
+

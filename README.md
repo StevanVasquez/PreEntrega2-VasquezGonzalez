@@ -1,12 +1,13 @@
 # PROYECTO FINAL: PAGINA WEB CANTANTE J BALVIN
 
-Este es un proyecto de pagina web que muestra informacion acerca del cantante colombiano J balvin. El objetivo principal de este proyecto es adquirir el conocimiento en las tecnologias HTML, CSS Y BOOTSTRAP para crear un diseño y estilo mas organizado, limpio, atractivo y moderno.
+Este es un proyecto de pagina web que muestra informacion acerca del cantante colombiano J balvin. El objetivo principal de este proyecto es adquirir el conocimiento en las tecnologias HTML, CSS, BOOTSTRAP y SASS para crear un diseño y estilo mas organizado, limpio, atractivo y moderno.
 
 ## TECNOLOGIAS UTILIZADAS:
 
 - HTML
 - CSS
 - BOOTSTRAP
+- SASS
 
 ## ESCTRUCTURA DEL PROYECTO FINAL:
 
