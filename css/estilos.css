@@ -69,14 +69,40 @@ html body {
 #header__index .nav__links__index #nav_home {
   transition: all, 600ms;
 }
+@media screen and (max-width: 991px) {
+  #header__index .nav__links__index #nav_home {
+    transition: all, 600ms;
+  }
+}
 #header__index .nav__links__index #nav_home:hover {
   background-color: #aac692;
   font-size: 1.4rem;
   border-radius: 9px;
   transform: scale(1.2);
 }
+@media screen and (max-width: 991px) {
+  #header__index .nav__links__index #nav_home:hover {
+    background-color: #aac692;
+    font-size: 0.8rem;
+    border-radius: 9px;
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1302px) {
+  #header__index .nav__links__index #nav_home:hover {
+    background-color: #aac692;
+    font-size: 0.6rem;
+    border-radius: 9px;
+    transform: scale(1);
+  }
+}
 #header__index .nav__links__index #nav_photos {
   transition: all, 600ms;
+}
+@media screen and (max-width: 991px) {
+  #header__index .nav__links__index #nav_photos {
+    transition: all, 600ms;
+  }
 }
 #header__index .nav__links__index #nav_photos:hover {
   background-color: #aac692;
@@ -84,8 +110,29 @@ html body {
   border-radius: 9px;
   transform: scale(1.2);
 }
+@media screen and (max-width: 991px) {
+  #header__index .nav__links__index #nav_photos:hover {
+    background-color: #aac692;
+    font-size: 0.8rem;
+    border-radius: 9px;
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1302px) {
+  #header__index .nav__links__index #nav_photos:hover {
+    background-color: #aac692;
+    font-size: 0.6rem;
+    border-radius: 9px;
+    transform: scale(1);
+  }
+}
 #header__index .nav__links__index #nav_albums {
   transition: all, 600ms;
+}
+@media screen and (max-width: 991px) {
+  #header__index .nav__links__index #nav_albums {
+    transition: all, 600ms;
+  }
 }
 #header__index .nav__links__index #nav_albums:hover {
   background-color: #aac692;
@@ -93,8 +140,29 @@ html body {
   border-radius: 9px;
   transform: scale(1.2);
 }
+@media screen and (max-width: 991px) {
+  #header__index .nav__links__index #nav_albums:hover {
+    background-color: #aac692;
+    font-size: 0.8rem;
+    border-radius: 9px;
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1302px) {
+  #header__index .nav__links__index #nav_albums:hover {
+    background-color: #aac692;
+    font-size: 0.6rem;
+    border-radius: 9px;
+    transform: scale(1);
+  }
+}
 #header__index .nav__links__index #nav_tours {
   transition: all, 600ms;
+}
+@media screen and (max-width: 991px) {
+  #header__index .nav__links__index #nav_tours {
+    transition: all, 600ms;
+  }
 }
 #header__index .nav__links__index #nav_tours:hover {
   background-color: #aac692;
@@ -102,14 +170,51 @@ html body {
   border-radius: 9px;
   transform: scale(1.2);
 }
+@media screen and (max-width: 991px) {
+  #header__index .nav__links__index #nav_tours:hover {
+    background-color: #aac692;
+    font-size: 0.8rem;
+    border-radius: 9px;
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1302px) {
+  #header__index .nav__links__index #nav_tours:hover {
+    background-color: #aac692;
+    font-size: 0.6rem;
+    border-radius: 9px;
+    transform: scale(1);
+  }
+}
 #header__index .nav__links__index #nav_contact {
   transition: all, 600ms;
+}
+@media screen and (max-width: 991px) {
+  #header__index .nav__links__index #nav_contact {
+    transition: all, 600ms;
+  }
 }
 #header__index .nav__links__index #nav_contact:hover {
   background-color: #aac692;
   font-size: 1.4rem;
   border-radius: 9px;
   transform: scale(1.2);
+}
+@media screen and (max-width: 991px) {
+  #header__index .nav__links__index #nav_contact:hover {
+    background-color: #aac692;
+    font-size: 0.8rem;
+    border-radius: 9px;
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1302px) {
+  #header__index .nav__links__index #nav_contact:hover {
+    background-color: #aac692;
+    font-size: 0.6rem;
+    border-radius: 9px;
+    transform: scale(1);
+  }
 }
 
 .main__container__information {

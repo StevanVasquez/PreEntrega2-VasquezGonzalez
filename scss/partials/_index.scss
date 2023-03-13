@@ -98,40 +98,130 @@ html {
         #nav_home {
             @include transitionListItems(all, 600ms);
 
+            @media screen and (max-width:991px){
+                transition: all, 600ms;
+            }
+
             &:hover {
                 @include hoverAnimationListItemsNav (#aac692, 1.4rem, 9px, scale(1.2));
+
+                @media screen and (max-width:991px){
+                    background-color: #aac692;
+                    font-size: 0.8rem;
+                    border-radius: 9px;
+                    transform: scale(1);
+                }
+
+                @media screen and (min-width:992px) and (max-width:1302px){
+                    background-color: #aac692;
+                    font-size: 0.6rem;
+                    border-radius: 9px;
+                    transform: scale(1);
+                }
             }
         }
         
         #nav_photos {
             @include transitionListItems (all, 600ms);
 
+            @media screen and (max-width:991px){
+                transition: all, 600ms;
+            }
+
             &:hover {
                 @include hoverAnimationListItemsNav (#aac692, 1.4rem, 9px, scale(1.2));
+
+                @media screen and (max-width:991px){
+                    background-color: #aac692;
+                    font-size: 0.8rem;
+                    border-radius: 9px;
+                    transform: scale(1);
+                }
+
+                @media screen and (min-width:992px) and (max-width:1302px){
+                    background-color: #aac692;
+                    font-size: 0.6rem;
+                    border-radius: 9px;
+                    transform: scale(1);
+                }
             }
         }
         
         #nav_albums {
             @include transitionListItems (all, 600ms);
 
+            @media screen and (max-width:991px){
+                transition: all, 600ms;
+            }
+
             &:hover {
                 @include hoverAnimationListItemsNav (#aac692, 1.4rem, 9px, scale(1.2));
+
+                @media screen and (max-width:991px){
+                    background-color: #aac692;
+                    font-size: 0.8rem;
+                    border-radius: 9px;
+                    transform: scale(1);
+                }
+
+                @media screen and (min-width:992px) and (max-width:1302px){
+                    background-color: #aac692;
+                    font-size: 0.6rem;
+                    border-radius: 9px;
+                    transform: scale(1);
+                }
             }
         }
 
         #nav_tours {
             @include transitionListItems (all, 600ms);
 
+            @media screen and (max-width:991px){
+                transition: all, 600ms;
+            }
+
             &:hover {
                 @include hoverAnimationListItemsNav (#aac692, 1.4rem, 9px, scale(1.2));
+
+                @media screen and (max-width:991px){
+                    background-color: #aac692;
+                    font-size: 0.8rem;
+                    border-radius: 9px;
+                    transform: scale(1);
+                }
+
+                @media screen and (min-width:992px) and (max-width:1302px){
+                    background-color: #aac692;
+                    font-size: 0.6rem;
+                    border-radius: 9px;
+                    transform: scale(1);
+                }
             }
         }
 
         #nav_contact {
             @include transitionListItems (all, 600ms);
 
+            @media screen and (max-width:991px){
+                transition: all, 600ms;
+            }
+
             &:hover {
                 @include hoverAnimationListItemsNav (#aac692, 1.4rem, 9px, scale(1.2));
+
+                @media screen and (max-width:991px){
+                    background-color: #aac692;
+                    font-size: 0.8rem;
+                    border-radius: 9px;
+                    transform: scale(1);
+                }
+
+                @media screen and (min-width:992px) and (max-width:1302px){
+                    background-color: #aac692;
+                    font-size: 0.6rem;
+                    border-radius: 9px;
+                    transform: scale(1);
+                }
             }
         }
     }
