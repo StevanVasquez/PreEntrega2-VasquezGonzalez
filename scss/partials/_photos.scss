@@ -5,8 +5,8 @@
     background-color:$background-color-main-photos-videos;
 
     #main__photos__videos__container {
-        $padding-bottom-container-video-photo: 120px;
-        $padding-top-container-video-photo: 130px;
+        $padding-bottom-container-video-photo: 60px + 60;
+        $padding-top-container-video-photo: 65px + 65;
 
         padding-bottom: $padding-bottom-container-video-photo;
         padding-top: $padding-top-container-video-photo;
@@ -60,8 +60,8 @@
             @include containerImgPhotos(flex, wrap, row, space-evenly, center, 70px);
 
             .img__photos {
-                $height-img-photos: 200px;
-                $width-img-photos: 200px;
+                $height-img-photos: 100px * 2;
+                $width-img-photos: 100px + 100;
                 $border-img-photos: #3c502a solid 4px;
                 $border-radius-img-photos: 10px;
 
@@ -134,8 +134,8 @@
             @include containerVideosPhotos(flex, wrap, row, space-evenly, center);
             
             .videos__main {
-                $width-videos-main: 400px;
-                $height-videos-main: 400px;
+                $width-videos-main: 300px + 100;
+                $height-videos-main: 200px * 2;
 
                 width: $width-videos-main;
                 height: $height-videos-main;

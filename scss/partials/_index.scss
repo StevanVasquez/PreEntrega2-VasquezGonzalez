@@ -57,7 +57,7 @@ html {
     }
 
     .nav__links__index {
-        $margin-left-ul-nav: 50px;
+        $margin-left-ul-nav: 30px + 20;
         margin-left: $margin-left-ul-nav;
 
         @media screen and (max-width:1302px) {
@@ -379,8 +379,8 @@ html {
             }
 
             .imagenes__main {
-                $height-images-main: 100%;
-                $width-images-main: 100%;
+                $height-images-main: 50% * 2;
+                $width-images-main: 50% * 2;
                 height: $height-images-main;
                 width: $width-images-main;    
             }
@@ -430,8 +430,8 @@ $padding-bottom-images-redes) {
         @include imagesFooterRedes (100%, 100%, 16px);
         
         .images__redes {
-            $width-images-redes: 20px;
-            $height-images-redes: 20px;
+            $width-images-redes: 10px + 10;
+            $height-images-redes: 10px * 2;
             $transition-images-redes: all 300ms;
 
             width: $width-images-redes;
@@ -439,8 +439,8 @@ $padding-bottom-images-redes) {
             transition: $transition-images-redes;
 
             &:hover {
-                $width-hover-images-redes: 31px;
-                $height-hover-images-redes: 31px;
+                $width-hover-images-redes: 21px + 10;
+                $height-hover-images-redes: 21px + 10;
                 $background-color-hover-images-redes: #76715c;
 
                 width: $width-hover-images-redes;

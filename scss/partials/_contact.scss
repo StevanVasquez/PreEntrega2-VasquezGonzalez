@@ -4,7 +4,7 @@
     padding-top: 120px;
 
     .title__container__contact {
-        $font-size-title-contact: 3rem;
+        $font-size-title-contact: 1rem + 2;
         $font-style-title-contact: italic;
         $font-weight-title-contact: normal;
         $text-align-title-contact: none;
@@ -24,7 +24,7 @@
     }
 
     .paragraph__container__contact {
-        $font-size-paragraph-contact: 2.6rem ;
+        $font-size-paragraph-contact: 1.3rem + 1.3;
         $text-align-paragraph-contact: left;
         $font-style-paragraph-contact: italic;
         $font-weight-paragraph-contact: normal;
@@ -46,8 +46,8 @@
     }
 
     .img__contact__main {
-        $padding-left-img-contact: 10px;
-        $padding-top-img-contact: 30px;
+        $padding-left-img-contact: 5px + 5;
+        $padding-top-img-contact: 3px * 10;
 
         padding-left: $padding-left-img-contact;
         padding-top: $padding-top-img-contact;
